@@ -15,6 +15,15 @@
       "source_blob": null
     },
     {
+      "bytes": 1165,
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "ec6470cb9a9ee91ed39f69b7c5294c72923235248a32ca6e8f8bfddd2e13b819",
+      "source_blob": "d274ebb9c7ebd3722bda860adc40708ddf139319"
+    },
+    {
       "bytes": 994,
       "mode": "100644",
       "path": "Makefile",
@@ -28,7 +37,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "666a609de6d947a52ff3cf9d8af03cadff9049b5591691f5bdd38d5828ccb147",
+      "sha256": "c7a813c510add7b71a2c10b454ae3f294fcc60d355031c593d0a02c546495067",
       "source_blob": null
     },
     {
@@ -395,5 +404,5 @@
   "repository": "ame-lu",
   "repository_map_sha256": "c6ce20755b904d93ebf33e840efa9c6d3eef33b2a5777679a3c1e5e2629c0c7f",
   "schema_version": 1,
-  "source_commit": "9d5c540e06b2acd4083c498fb6d0977db708af4e"
+  "source_commit": "7934c752b5c6b3f147354f760067bfc9adfc6d44"
 }
