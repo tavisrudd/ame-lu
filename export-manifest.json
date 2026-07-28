@@ -1,17 +1,15 @@
 {
   "excluded_path_count": 9,
-  "excluded_release_outputs": [
-    "main.pdf"
-  ],
+  "excluded_release_outputs": [],
   "excluded_symlinks": [],
   "exporter_blob": "d38f45b035738e161b53233b597538b885c4d039",
   "files": [
     {
-      "bytes": 118,
+      "bytes": 108,
       "mode": "100644",
       "path": ".gitignore",
       "role": "export-support",
-      "sha256": "d7d5cc8be1a8c07c3f6083d212b4a3e43ef847a4c2081061b1e656de7dde4a50",
+      "sha256": "8aec252fe1e8e2a04924eeac30581deea8368b151c9e82d6601a1d6393be8b27",
       "source_blob": null
     },
     {
@@ -22,6 +20,15 @@
       "role": "verification",
       "sha256": "ec6470cb9a9ee91ed39f69b7c5294c72923235248a32ca6e8f8bfddd2e13b819",
       "source_blob": "d274ebb9c7ebd3722bda860adc40708ddf139319"
+    },
+    {
+      "bytes": 470,
+      "mode": "100644",
+      "path": "LICENSE",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "55bd30dbbfb4a62d77bfd74a183e68ac3fa392c12802e0b56ad02613b9248d7c",
+      "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
     },
     {
       "bytes": 994,
@@ -37,17 +44,17 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "c7a813c510add7b71a2c10b454ae3f294fcc60d355031c593d0a02c546495067",
+      "sha256": "3e5cc3cc59dc502ea5e7efed5946eac1d41f4dc39ec5fae0d9ae56cf02af6f83",
       "source_blob": null
     },
     {
-      "bytes": 3951,
+      "bytes": 4022,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "e35cf4fcb4e54108951ca39a74b40d8e3cbc825760cd4dba1efe6806b327f0a3",
-      "source_blob": "0951d24998f6627e3f1097dac229f05c6bad6803"
+      "sha256": "f7d6eefb88fc05784df01710fb98e43835a69928fb2fb9ed00b4ac239919189b",
+      "source_blob": "51a2358a8049a9946447c3195f44f25dbe1276ad"
     },
     {
       "bytes": 242214,
@@ -402,7 +409,7 @@
   ],
   "paper_registry_sha256": "e3d7a09841ddaa925ef9196f1d36df4be5efa06c2fb51d1e557cd6cdde971f22",
   "repository": "ame-lu",
-  "repository_map_sha256": "c6ce20755b904d93ebf33e840efa9c6d3eef33b2a5777679a3c1e5e2629c0c7f",
+  "repository_map_sha256": "ea07e62132ccdf3b29a24c1d1974a0cd7ee11b77d338c33660c732cb6889428d",
   "schema_version": 1,
-  "source_commit": "7934c752b5c6b3f147354f760067bfc9adfc6d44"
+  "source_commit": "e134b0fe8a5329472940c5e8ecaabfbee2c9e4e8"
 }
