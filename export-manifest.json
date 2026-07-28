@@ -1,0 +1,399 @@
+{
+  "excluded_path_count": 9,
+  "excluded_release_outputs": [
+    "main.pdf"
+  ],
+  "excluded_symlinks": [],
+  "exporter_blob": "a4e8889f4efa6b18e800c4323d57c5439bce8ff9",
+  "files": [
+    {
+      "bytes": 118,
+      "mode": "100644",
+      "path": ".gitignore",
+      "role": "export-support",
+      "sha256": "d7d5cc8be1a8c07c3f6083d212b4a3e43ef847a4c2081061b1e656de7dde4a50",
+      "source_blob": null
+    },
+    {
+      "bytes": 994,
+      "mode": "100644",
+      "path": "Makefile",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "367a62916afbcdcb1c7dcdba348d3c1c2cf7766695d5cb6cebf73d268cbff52d",
+      "source_blob": "90a4ef13d62cb5b82628bea42b9ec7862d17226f"
+    },
+    {
+      "bytes": 287,
+      "mode": "100644",
+      "path": "PROVENANCE.md",
+      "role": "provenance",
+      "sha256": "683c458a7b9e37dc6d44bc7ba875c9db43b4c1c40be43ba09f3c88e94fab0c46",
+      "source_blob": null
+    },
+    {
+      "bytes": 3814,
+      "mode": "100644",
+      "path": "README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "581cbe6fd92ee4f5cfa6062a80ebe1d4b1be5b772fd1b039363b3e3968e204f4",
+      "source_blob": "eda58baf907a21fdd2f2285d23bf6761638fd2f1"
+    },
+    {
+      "bytes": 242214,
+      "mode": "100644",
+      "path": "ame-lu.pdf",
+      "rewrites": [],
+      "role": "release-output",
+      "sha256": "8537b1a2abc74f1cafc90c68aa89081b6fcc4b511b3d9d83c874043b96d93b23",
+      "source_blob": "ddae0b9d17a835cf6353e6630b24ce2b995a9fea"
+    },
+    {
+      "bytes": 4104,
+      "mode": "100644",
+      "path": "main.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "d915ad48999029d97dfd1c551c61ac40af0c41ae17da2973911c9bcd9b62fe41",
+      "source_blob": "975df7455d54c91a8e7b5c4928933805d80bc726"
+    },
+    {
+      "bytes": 12611,
+      "mode": "100644",
+      "path": "refs.bib",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "70090e5aa9e9d84335bb10bfc5cc2a0b7061410f8febb849d64fd983fe0fe0cb",
+      "source_blob": "a6530941ef5a2f5bc3ea2c3969741688283f6ce0"
+    },
+    {
+      "bytes": 23592,
+      "mode": "100644",
+      "path": "release/RELEASE-MANIFEST.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "2b07bcde8153f60a69ddf392a517ab21db5ebd4f0bc8ef5c8f7072119509cb1c",
+      "source_blob": "9c79dfe02a7ad5fc2200e55cc486a1d980a628cf"
+    },
+    {
+      "bytes": 7488,
+      "mode": "100644",
+      "path": "release/verify_release.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "3462e8fb3e32249a3d80a7e2b529e55de4ebfd31ce1dcdc06bac5600ab08139b",
+      "source_blob": "5b357ec9fdc132769ebd72f75768ea21e7cccf37"
+    },
+    {
+      "bytes": 16680,
+      "mode": "100644",
+      "path": "sections/01-introduction.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "f9029877b09d2038eadb2fac8f91bc66fe8661cc796a1da420c18cddd2fe55e5",
+      "source_blob": "24149a12d85e66cfaebb939162a343a423b36017"
+    },
+    {
+      "bytes": 6200,
+      "mode": "100644",
+      "path": "sections/02-geometry-ame-dictionary.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "9bd45727fd2aa46f56787ac729895b443fe9aa9fc35670ca21789bf0ce92db34",
+      "source_blob": "75f212dac9c3e3135b0826e86e8d495f9a954f07"
+    },
+    {
+      "bytes": 26356,
+      "mode": "100644",
+      "path": "sections/03-lu-rigidity.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "d1ae8467c791f811b8dfae919390efadd46f0c803d6ba9253a28a791af2d4a40",
+      "source_blob": "0de354affbdf8d950d6225bbf8b8596adc09f64f"
+    },
+    {
+      "bytes": 8983,
+      "mode": "100644",
+      "path": "sections/04-pencil-classification.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "468d483de1b8f8a6d56c30baf4f3b2a90f9fcb5db4afe5de8c7802f36f15691d",
+      "source_blob": "483e2371e1ff16b72db7306d9876d403bce0b8b9"
+    },
+    {
+      "bytes": 5557,
+      "mode": "100644",
+      "path": "sections/05-logical-clifford-phase.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "8135627a5d8ec3c6cf64742b62be06d85206e4bd9e4e1ca40a67cb0b3ddbaa82",
+      "source_blob": "e01acf31f078d6aabc2969d53d33b4af34aa4960"
+    },
+    {
+      "bytes": 3359,
+      "mode": "100644",
+      "path": "sections/06-lu-invariants.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "3bbfd022d9135b990679263a17859ea6a69a81e1158d1b499529568f5087f7ed",
+      "source_blob": "117b933e5ad97732e3aa843d6329d6633f257319"
+    },
+    {
+      "bytes": 1396,
+      "mode": "100644",
+      "path": "sections/07-conclusion.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "73ffcb45cd59e6fa4ee9c4c626f43dd5799d27e1cb00a4bc29d01f44fe041876",
+      "source_blob": "41370be45ed987967340bf088c547daac253c543"
+    },
+    {
+      "bytes": 6318,
+      "mode": "100644",
+      "path": "sections/07-transport-sheaf.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "273f370f80635ce0628851931982d0cbda697bdb26ca8dd8eadfe4aa5add7b0d",
+      "source_blob": "60773cde5ca3a722cb8d7a78fca53d88726c9610"
+    },
+    {
+      "bytes": 8140,
+      "mode": "100644",
+      "path": "sections/08-verification-boundary.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "a851e8f1a238d45f47b2e10c880df1795af3f611d21dadc8caf41bfc24c24bdb",
+      "source_blob": "7e065470152259e8311ecb51ea47a79d5ed3f099"
+    },
+    {
+      "bytes": 3936,
+      "mode": "100644",
+      "path": "sections/09-party-extensions.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "67f6a60d0902bf2de19fdf1a4d6147917a7f5d77e06a2f38ba8083a387d3c344",
+      "source_blob": "cbd852e8b82ed030cf2fb11dab2ebad1f8de869c"
+    },
+    {
+      "bytes": 9171,
+      "mode": "100644",
+      "path": "sections/10-scalar-certificates.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "9cd5e55f41fec6d5703e92735b5546f0f4fed50b40bd5052a335ed1dc735db4d",
+      "source_blob": "c44f04e3eed4fe14293648f7bbea0b1627db7df8"
+    },
+    {
+      "bytes": 868,
+      "mode": "100644",
+      "path": "sections/README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "f2f7c2120fb1c119e216db2c5f07206aaa1a4da6aa8cc7b2111c51943e5bee62",
+      "source_blob": "c6d4af6ba17a9a84f7b88306ccd587a8eb944f4b"
+    },
+    {
+      "bytes": 3951,
+      "mode": "100644",
+      "path": "supplement/EVIDENCE-MANIFEST.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "175b50ad8bcf627c22d95ff067f8e89cc437130a61e06bdaf4a85f0363fa746e",
+      "source_blob": "4381409d305d03419bfce29298144bc46337b526"
+    },
+    {
+      "bytes": 7408,
+      "mode": "100644",
+      "path": "supplement/EVIDENCE.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "e4b0a6c6b80910f23ca9127da8f71f82c60be308e72ea1a9fd8e42eb85e7185d",
+      "source_blob": "01a9374f58249426aff813f6eb99e50ad8913949"
+    },
+    {
+      "bytes": 1094,
+      "mode": "100644",
+      "path": "supplement/README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "2190398b29d67ca4534c32a204bdc0a73142d451bbd1c21ece2aa566ca45c482",
+      "source_blob": "65ea3dba63124ba7539769ec72305ab3f04b7173"
+    },
+    {
+      "bytes": 15476,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-19-clebsch-ame-equivalence.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "f2fb460c3c90324bee53cabbe3b495db634fcbb3426c39183685564c48367210",
+      "source_blob": "284221f51b7be210e354b47850b94d5f7a4239a0"
+    },
+    {
+      "bytes": 24692,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-19-clebsch-ame-equivalence.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "3cc76e380be2447fbf49a779320e8a2ceb2d55b92f62d834c36c3b83dbf38a79",
+      "source_blob": "9dced2c013d10809672b7ae8f1b0a41cd65fc5b1"
+    },
+    {
+      "bytes": 24090,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-20-clebsch-ame-pencil-arithmetic.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "29475cf066640668d04a6ebd0f5bbc247670a5803256ec735de8a8acd2569fe5",
+      "source_blob": "5eb613cd6636dcd4fc9064d57091fd13b3cf0a2b"
+    },
+    {
+      "bytes": 225468,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-ame-perfect-tensor-physics.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "0fea19c906fd4ea546c822cf622c81d2721ba40c765ffa39a6badd852c29a7f3",
+      "source_blob": "9272b6df1e5448f0d55c3074db9df4dffb530b6a"
+    },
+    {
+      "bytes": 30814,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-ame-perfect-tensor-physics.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "075f8d6c36b252c66f82e549491d7afa460218d4f96840d0e6cf86a288ed25b7",
+      "source_blob": "c3d1243b9a456c98f9e07cd90a9324b0438f3fdf"
+    },
+    {
+      "bytes": 12193,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-contraction-rank-drop-divisor.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "9ca05a5ed99bb5342ecff817dc964c6f9424ca4cdd69684298b8cd938225525b",
+      "source_blob": "dce2c356a7dbc4f229d932fd7b4e73a282374bcb"
+    },
+    {
+      "bytes": 31985,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-contraction-rank-drop-divisor.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "abd4f23d1ac3b4c610eb3c0a5610866bd941dccdf3bcd59550fa5fd81bb4f1df",
+      "source_blob": "e35c59f547f9c998cad57d1caf7e0497cfbe3146"
+    },
+    {
+      "bytes": 12228,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-four-copy-cover-holonomy.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "d3ac33676b2816c46478b435d33d1bc99057eb8a8ac15e45203cbdd033715c85",
+      "source_blob": "e5596d0f1b671e447793413a8aeb6e5e792a4fc5"
+    },
+    {
+      "bytes": 29015,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-four-copy-cover-holonomy.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "f07863591a2ef87f6dd6ff22c339325b6ad67dacc4acaed0590f0921de051ae6",
+      "source_blob": "831ae1e9f36fc1e926397dffce12905040db2771"
+    },
+    {
+      "bytes": 12689,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-h3-ame-uniform-lu-separation.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "9aa997194da8de379d0b5832a1953d63bd30971f1170d1176f1d000f981ec2cc",
+      "source_blob": "3bf5ea7934aff98137d36098cac3b1886f8e94e8"
+    },
+    {
+      "bytes": 28682,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-h3-ame-uniform-lu-separation.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "a3f1ceeceb9d479e6290841e33c09df615756c7b9cf93ef1f0c3ca9d6a002fb3",
+      "source_blob": "4710318946e775c57d0533a20051c0d2f88272e9"
+    },
+    {
+      "bytes": 14303,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-h3-pentad-orientation-lu.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "e45079d568b08597d514945c0e1ec0aad539d208e02e4da7ee110975eb6322b3",
+      "source_blob": "672e41b88d0fdc34c7ccc3814cff4111ece41310"
+    },
+    {
+      "bytes": 10062,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-h3-pentad-orientation-lu.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "906c35a63308ab83d8169f508debe113945f94c85a5596443ffed7eb1921999b",
+      "source_blob": "adf6a9b9178084362dd528341191dd25d14e4620"
+    },
+    {
+      "bytes": 749592,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-holonomy-completeness.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "0e8d608df0a8024b8dd7dc8f3e39bfad1fad2b222a3452a0da0b8bb09764eec1",
+      "source_blob": "388974b08ff214ff8af660bbeabe8f123aa54157"
+    },
+    {
+      "bytes": 41571,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-23-holonomy-completeness.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "3d7dcc5a98bafca6c215dc66b024795a9dc024c21fb15d2f5f2063d7a6446f10",
+      "source_blob": "dbbbabc2fb4cd9d783877ff1e4ff8618c5a62989"
+    },
+    {
+      "bytes": 622348,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-25-ame-lu-party-extension-examples.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "fcc903793d9329e12c3739fe3e524d75b809f7290bc3197d9a59ffe26c428d05",
+      "source_blob": "b63f17b226dc8c7941877fca9b14d830b30dc4fd"
+    },
+    {
+      "bytes": 29838,
+      "mode": "100644",
+      "path": "supplement/evidence/2026-07-25-ame-lu-party-extension-examples.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "0a43695889d863fdd34fb45cad3fee30c3f5e9d7ee9696ed27e1b13413eae00b",
+      "source_blob": "3cb980c7c9a1db5f6813d7bdb4bfce3d160c4b47"
+    },
+    {
+      "bytes": 2839,
+      "mode": "100644",
+      "path": "supplement/verify.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "b91ba7b352527fe5659a8f045ca22048eaa5f51e48fe04e7cf80465c91d97c4d",
+      "source_blob": "b35d9c2b5ef78e853732e627e4c71602848c4ed5"
+    }
+  ],
+  "github": "tavisrudd/ame-lu",
+  "main_sources": [
+    "main.tex"
+  ],
+  "manifest_self_excluded": true,
+  "paper_ids": [
+    "ame_lu"
+  ],
+  "paper_registry_sha256": "e3d7a09841ddaa925ef9196f1d36df4be5efa06c2fb51d1e557cd6cdde971f22",
+  "repository": "ame-lu",
+  "repository_map_sha256": "8b5c5b4ce75f359e1e94b9dc6a707780b0eb15402bef08b970384f7808c5c579",
+  "schema_version": 1,
+  "source_commit": "3c7d73491a2593f91702f5c062f4bb612f4ac1db"
+}

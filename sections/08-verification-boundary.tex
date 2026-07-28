@@ -1,0 +1,155 @@
+\section{Verification and scope}\label{sec:verification}
+
+The rigidity theorem, the arc--AME dictionary, and generic constancy are
+conceptual proofs in the text.  The projective quotient uses displayed
+bracket identities and projectivities.  Its transition-map invariance and
+collision argument are proved in Section 4, while the 450 exact rational
+functions are certificate-supported.
+Section~\ref{sec:rigidity} proves the general MDS diagonal-multiplier
+criterion.  Section~\ref{sec:logical} combines it with Gale duality to
+obtain the six-arc phase theorem.  The party groups,
+factor sets, complements, and torus actions in
+Corollary~\ref{cor:computed-party-splitting} are certificate-supported
+finite examples, not inputs to the uniform theorem.
+Appendix~\ref{sec:scalar-certificates} proves the marginal trace/rank and
+incidence bridges; the \(H_3\) determinants and \(q=13\) contractions are
+certificate-supported.
+Appendix~\ref{sec:transport} proves the systematic transport reduction; the cycle-cover
+determinants, assignment exhaustion, exact minors, and double-coset
+support sets are certificate-supported.
+
+The reproducibility package is in \texttt{supplement/}.  From that
+directory,
+\[
+\begin{array}{ll}
+\texttt{python3 verify.py}
+ &\text{checks all seventeen byte counts and SHA-256 digests},\\
+\texttt{python3 verify.py --replay}
+ &\text{regenerates all eight canonical JSON certificates in memory}.
+\end{array}
+\]
+The full replay uses only the Python standard library, deterministic
+integer, rational, polynomial, and finite-field arithmetic, and canonical
+JSON serialization.  It includes separately implemented checks appropriate
+to each claim: CSS versus direct-Lagrangian shortening, symbolic versus
+finite projectivity, chord concurrency versus stabilizer ranks, quotient
+minors versus finite-field elimination, and cycle-cover versus
+fraction-free transport determinants.  These checks belong to one
+paper-owned Python package.  They provide independent implementations
+within that package, not an independent external reproduction.  The exact
+files, entry points, hashes, domains, expected
+outputs, and negative scopes are recorded in
+\texttt{supplement/EVIDENCE.md} and
+\texttt{supplement/EVIDENCE-MANIFEST.json}.
+On the reference machine the digest check takes under a second, the full
+evidence replay about six minutes, and each Lean aggregate under ten
+seconds.
+
+From the repository root, the exact formal replay is
+\begin{verbatim}
+python3 lean/scripts/lean-build-queue.py run \
+  RelativeConicArcs.Gates.AMELUAggregate \
+  RelativeConicArcs.Gates.AMELUAggregateAxioms \
+  --profile single --threads 1 \
+  --aggregate RelativeConicArcs.Gates.AMELUAggregateAxioms
+\end{verbatim}
+The checked release is then reproduced from \texttt{papers/ame\_lu/} by
+\begin{verbatim}
+make release-check
+\end{verbatim}
+The release identifier is content based:
+\texttt{release/RELEASE-MANIFEST.json} records the SHA-256 digest of every
+public byte and every file in the recursive formal dependency closure,
+including the Lean toolchain and build definitions.  The manifest, rather
+than a mutable working-tree name, is the immutable identity of the
+companion release.
+
+\paragraph{Claim-to-trust map.}
+\noindent\textbf{LU-to-LC rigidity, atlas classification, and the
+transversal no-go.}
+The manuscript gives complete proofs.  Lean kernel-checks the support,
+transition, marginal, covariance, axis-recovery, and holonomy cores; the
+manuscript proves the exact projective atlas extension.
+
+\noindent\textbf{Pencil and six-arc classification.}
+The manuscript proof uses exact certificates for the finite holonomy
+calculation.  The Lean interface is conditional and names its geometric and
+holonomy inputs.
+
+\noindent\textbf{\(H_3\) and \(q=13\) separators.}
+The manuscript proof uses exact certificates for the determinants and
+contraction ranks.  The finite graph core is unconditional in Lean; the
+trace/covariance bridges and exact ranks are named inputs.
+
+\noindent\textbf{Diagonal-isodual logical groups.}
+The manuscript gives the proof, and the multiplier theorem is unconditional
+in Lean.  The formal exact-carrier terminal names the propagation interface
+as a hypothesis.
+
+\noindent\textbf{Twelve computed party-extension splittings and transport.}
+Exact certificates supply the finite complements and transport matrices.
+Lean proves the abstract splitting algebra once a complement is supplied.
+
+The corresponding certificate entry points and formal theorem names appear
+in the claim crosswalk in \texttt{supplement/EVIDENCE.md}.
+
+The trusted boundary is Python integer arithmetic, the exact-arithmetic
+implementations in the generators, deterministic Gaussian elimination,
+and the mathematical dictionaries connecting arcs, codes, stabilizers,
+and tensor contractions.  The certificates check the bounded
+enumerations and symbolic identities that they record.  They do not prove
+the conceptual correspondence between the implemented objects and the
+paper definitions; that correspondence is supplied in the preceding
+sections.
+
+The Lean~4 artifact uses toolchain \texttt{v4.32.0-rc1}; no aggregate module
+uses \texttt{sorry} or an unsafe declaration.  Its aggregate contains
+unconditional formal proofs
+of the support squeeze, minimum-support generation, marginal and
+axis-recovery cores, atlas equivalence, abstract holonomy centralizers,
+the Choi/transversal bridge, the diagonal-multiplier theorem, and the
+abstract projective-extension algebra.  The ordinary kernel-checked
+declarations use only \texttt{propext}, \texttt{Classical.choice}, and
+\texttt{Quot.sound}; three finite graph cardinalities use
+\texttt{native\_decide} and are reported separately by the axiom terminal.
+All other finite evidence is replayed by the Python supplement rather than
+imported as a Lean axiom.
+
+The geometric classification, exact logical propagation, finite
+contractions, concrete party complements, and transport-orbit inputs enter
+conditional interfaces.  The manuscript proves or the supplement
+certificate-checks those inputs as recorded in the claim-to-trust map above;
+importing the aggregate does not turn them into unconditional Lean theorems.
+The exact module-to-claim crosswalk and each named hypothesis are recorded
+in \texttt{supplement/EVIDENCE.md}.
+
+The extension-field scalar statements in
+Proposition~\ref{prop:frobenius-sector-divisors} are unconditional in
+Lean.  The aggregate audit checks the frame-ratio
+factorization, explicit Gale multiplier and odd-characteristic zero
+criterion, same-exponent sector disjointness, and automorphism equivariance
+of \(G,A,B,z\) and the admitted locus.  Its separate Galois-\(z\) orbit
+terminal is conditional on two named bridges: extraction of a projective
+Frobenius sector from an additive Clifford equivalence, and construction of
+a Clifford from a Galois match.  Neither bridge is used as a paper theorem.
+
+Finally, none of the results classifies nonlinear orthogonal arrays,
+arbitrary nonstabilizer AME tensors, or stabilizer states that are not AME.
+We do not claim that four
+copies are globally minimal, that \(z=2,4/9\) are orbit exceptions, or
+that a fixed copy degree separates all classes as \(q\) varies.  The
+logical-group theorem and the quantum part of the pencil classification
+are restricted to odd prime fields.  Over extension fields, Frobenius
+basis permutations are additional local Cliffords.  The scalar \(z\)
+is Frobenius-covariant, and
+Proposition~\ref{prop:frobenius-sector-divisors} determines the two
+divisors attached to each field automorphism, but the two additive-Clifford
+bridges needed for a full orbit classification are outside the theorem
+package.  The minimum-support atlas theorem remains exact over extension
+fields, with local blocks in \(\mathrm{Sp}_{2e}(\F_p)\); its holonomy form
+requires both a centralizing base block and the propagated symplectic
+membership conditions, and does not imply a semilinear classification.
+Theorem~\ref{thm:lu-h3-grs} is restricted to the stated
+odd residue-field reductions, and the detector exceptions described in
+Appendix~\ref{sec:transport} do not alter the
+characteristic-uniform rigidity theorem.

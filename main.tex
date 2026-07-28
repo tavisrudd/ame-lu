@@ -1,0 +1,111 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=27mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\setsansfont{Latin Modern Sans}
+\setmonofont{DejaVu Sans Mono}[Scale=MatchLowercase]
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\numberwithin{equation}{section}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}
+\hbadness=10000
+\hfuzz=3pt
+
+\newtheoremstyle{upright}
+  {6pt}{6pt}{\normalfont}{}{\bfseries}{.}{.5em}{}
+\theoremstyle{upright}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\F}{\mathbb F}
+\newcommand{\PP}{\mathbb P}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\LU}{\mathrm{LU}}
+\newcommand{\LC}{\mathrm{LC}}
+\newcommand{\AME}{\mathrm{AME}}
+\newcommand{\GRS}{\mathrm{GRS}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\title{Local-Unitary Rigidity of Stabilizer AME States and
+Transversal Clifford Groups of MDS--CSS Codes}
+\author{Tavis Rudd}
+\date{July 2026}
+\hypersetup{
+  pdftitle={Local-Unitary Rigidity of Stabilizer AME States and
+    Transversal Clifford Groups of MDS--CSS Codes},
+  pdfauthor={Tavis Rudd}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let \(q=p^e\).  For every \(m\geq2\), each product-unitary intertwiner
+between two stabilizer \(\AME(2m,q)\) states is Clifford factor by factor.
+On any \(m+1\) parties, the supported stabilizer labels form a
+\(q^2\)-element group and project bijectively onto the complete local Weyl
+basis at every party in the marginal.  The reduced operator therefore determines
+its local Weyl axes intrinsically.  Consequently, every tensor-product
+conversion between the associated \([[2m-1,1,m]]_q\) stabilizer
+quantum-MDS encoders is Clifford on every physical factor and on the
+logical factor.
+Modulo party relabelling and local trace-symplectic
+\(\F_p\)-linear changes of frame, the transition atlas obtained by pushing
+Weyl labels between parties on minimum supports is a complete structured
+LU invariant.
+
+For equal-phase CSS states of linear \([2m,m,m+1]_q\) MDS codes over an
+odd prime field, the exact fixed-party projective transversal logical group
+is \(\F_q^2\rtimes\mathrm{SL}_2(q)\) precisely when \(C\) is diagonally
+isodual, and \(\F_q^2\rtimes T\) otherwise, where \(T\) is the split
+torus; generalized Reed--Solomon codes lie on the first branch.
+
+For \(m=3\), a degree-eight quotient \(z\) classifies projective and
+monomial-code equivalence on an explicit non-GRS pencil of six-point arcs
+over odd fields; over odd prime fields it also classifies local-Clifford
+and local-unitary equivalence.
+\end{abstract}
+
+\input{sections/01-introduction}
+\input{sections/02-geometry-ame-dictionary}
+\input{sections/03-lu-rigidity}
+\input{sections/04-pencil-classification}
+\input{sections/05-logical-clifford-phase}
+\input{sections/06-lu-invariants}
+\input{sections/08-verification-boundary}
+\input{sections/07-conclusion}
+\appendix
+\input{sections/10-scalar-certificates}
+\input{sections/07-transport-sheaf}
+\input{sections/09-party-extensions}
+
+\section*{AI assistance disclosure}
+
+This project was developed with extensive assistance from OpenAI Codex and
+Anthropic Claude. Under the author's direction, the systems assisted
+throughout with proof exploration, literature research, symbolic and finite
+computation, code and formal-proof development, verification, and manuscript
+drafting and revision. The author checked the resulting arguments,
+computations, code, and cited sources, reviewed and edited all AI-assisted
+material, and assumes responsibility for all content.
+
+\bibliographystyle{alpha}
+\bibliography{refs}
+
+\end{document}
