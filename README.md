@@ -3,9 +3,7 @@
 **Title:** *Local-Unitary Rigidity of Stabilizer AME States and
 Transversal Clifford Groups of MDS--CSS Codes.*
 
-**Lane:** `ame-lu`
-
-**Status:** post-version-1 general-theorem revision. Every local-unitary
+Every local-unitary
 intertwiner between arbitrary additive stabilizer `AME(2m,q)` states is
 local Clifford, for every prime power and \(m\geq2\).  Transversal
 conversions between the associated stabilizer `[[2m-1,1,m]]_q` quantum-MDS
@@ -14,17 +12,19 @@ specialization has exact projective
 transversal logical group `F_q^2 ⋊ SL_2(q)`, and diagonal isoduality is the
 exact all-length condition for that group rather than the split-torus
 alternative.  The six-party pencil and logical-phase applications retain
-their existing scopes. Public identifiers,
-public deposit, and submission authorization remain author gates. Repository
-metadata identifies Tavis Rudd, and the release is licensed under CC BY 4.0.
+their stated scopes. The release is licensed under CC BY 4.0.
 
 The formal companion distinguishes the kernel-checked
 finite-coordinate, minimum-support, diagonal-axis, and Choi cores from the
-remaining stabilizer-state/reduced-density composition.  The previous
-release is superseded; the current content-addressed manifest pins this
-revision.
+remaining stabilizer-state/reduced-density composition.
 Its version-independent archival locator is the Zenodo concept DOI
 [`10.5281/zenodo.21650878`](https://doi.org/10.5281/zenodo.21650878).
+
+The Lean sources are distributed in
+[`finitegeom`](https://github.com/tavisrudd/finitegeom), pinned at commit
+`77c0d6bb5a45a1aa15a0ab90b7db307e1a1804d2`. The paper-facing boundary is
+`RelativeConicArcs.Gates.AMELUAggregateAxioms`; its 68-module closure and
+terminal axiom sets are recorded under `trust/`.
 
 ## Build
 
