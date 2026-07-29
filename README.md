@@ -1,5 +1,7 @@
 # Paper: Local-unitary rigidity of stabilizer AME states
 
+[![DOI](https://zenodo.org/badge/1315348174.svg)](https://doi.org/10.5281/zenodo.21681856)
+
 **Title:** *Local-Unitary Rigidity of Stabilizer AME States and
 Transversal Clifford Groups of MDS--CSS Codes.*
 
