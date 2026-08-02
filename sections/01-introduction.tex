@@ -52,7 +52,7 @@ Thus the proof has four steps:
 
 \begin{corollary}[Transversal Clifford no-go]
 \label{cor:transversal-clifford}
-Let \(V_\psi,V_\phi:\mathbb C^q\to
+Let \(m\geq2\), and let \(V_\psi,V_\phi:\mathbb C^q\to
 (\mathbb C^q)^{\otimes(2m-1)}\) be encoding isometries whose normalized
 Choi states are stabilizer \(\AME(2m,q)\) states
 \(\lvert\psi\rangle,\lvert\phi\rangle\).  They encode the associated
@@ -85,7 +85,8 @@ whose composite is an atlas holonomy.
 
 \begin{theorem}[Minimum-support atlas classification]
 \label{thm:atlas-classification}
-After a fixed party relabelling, two stabilizer \(\AME(2m,q)\) states are
+Let \(m\geq2\).  After a fixed party relabelling, two stabilizer
+\(\AME(2m,q)\) states are
 LU equivalent exactly when their minimum-support operator-pushing atlases
 are equivalent by local symplectic changes of Weyl frame.  For one state,
 let \(\mathcal G_\psi\) be its group of compatible local symplectic gauges,
@@ -109,13 +110,33 @@ and Van den Nest, Dehaene, and De Moor used this mechanism in a
 minimal-support LU-to-LC criterion for qubit stabilizer states
 \cite[Theorem~13]{Rains1999}
 \cite[Theorem~1 and Corollary~1]{VanDenNestDehaeneDeMoor2005}.
-For \(q=2\), Proposition~\ref{prop:full-weyl-marginal} supplies all three
-Pauli axes on each minimum support, so the AME profile satisfies their
-criterion.  The LU-to-LC conclusion of
-Theorem~\ref{thm:lu-lc-rigidity} is therefore already covered by their
-result.  The new scope here is the uniform
-prime-power theorem for arbitrary additive stabilizers, together with the
-minimum-support atlas and its exact symmetry-group sequence.
+Corollary~\ref{cor:recognition-generation} gives a criterion of the same
+kind at every local dimension.  Through each party, it asks for marginals
+of both states whose recovered Weyl labels generate the local label group.
+The states and coefficients are otherwise arbitrary: no stabilizer, CSS,
+or linearity hypothesis enters.  For fully entangled qubit stabilizer states
+on at least three parties, the minimal-support lemma identifies this
+generation condition with the hypothesis of Van den Nest, Dehaene, and De
+Moor.  The criterion therefore unifies their two proof branches rather than
+strengthening their theorem in local dimension two.
+
+The distinction appears above local dimension two.  The label group of a
+minimal support embeds in the local label group at each of its parties.  In
+the qubit case it therefore has only the two nontrivial sizes just described;
+in larger dimension it may be intermediate.  Such subgroups occur naturally
+in CSS states, where a minimum-weight \(X\)-support carrying no \(Z\)-word
+can contribute a line of labels.  Proposition~\ref{prop:stabilizer-ame-support}
+verifies the stronger, full-Weyl hypothesis for stabilizer AME states over
+every prime power.
+
+The axis-recovery linear algebra is classical
+\cite{Harshman1970,Kruskal1977}.  Chang and Jing introduced the general
+Kruskal-type tensor-uniqueness method into the qubit LU problem
+\cite{ChangJing2022}; their generic coefficient tensors yield LU invariants,
+not a Clifford conclusion.  Only the additive label structure is used, so
+the criterion also applies to the integer-modulus Weyl system on
+\(\mathbb C^d\) for arbitrary \(d\).  Section~\ref{subsec:recognition}
+gives the proof and its sharp two-party and nongenerating boundaries.
 Van den Nest, Dehaene, and De Moor also gave a finite invariant set
 characterizing LC equivalence of arbitrary binary stabilizer states
 \cite{VanDenNestDehaeneDeMoor2005Invariants}.  Our atlas theorem is not a
@@ -146,7 +167,9 @@ atlas a complete classification reduction rather than only an obstruction.
 For six parties, explicit holonomy conjugacy data recover the pencil
 coordinate \(z\).
 The boundary \(m\geq2\) is sharp: a Bell pair has non-Clifford
-\(U\otimes\overline U\) symmetries.
+\(U\otimes\overline U\) symmetries.  Its pair marginal is pure rather than
+maximally mixed, which is exactly the failure that the second-moment
+computation of Section~\ref{sec:two-uniform} detects.
 
 Rigidity determines which product operations are possible; the
 maximum-distance-separable (MDS) Calderbank--Shor--Steane (CSS) model
@@ -209,12 +232,35 @@ For binary stabilizer codes, Wirthm\"uller determines the identity
 component of the local-unitary automorphism group and gives a protected-qubit
 criterion for finiteness of the induced automorphism group
 \cite[Theorem~7 and Corollary~11]{Wirthmuller2011}.  Our result instead
-determines every local factor and gives projective finiteness uniformly
-inside the prime-power stabilizer-AME class.  The stabilizer qualifier is
-essential: arbitrary phased minimal-support
-\(\AME(6,d)\) states form infinitely many LU classes
-\cite{RamadasLakshminarayan2025}; nonlinear orthogonal arrays and
-nonstabilizer AME states are not covered.
+determines every local factor inside the prime-power stabilizer-AME class.
+
+Finiteness alone needs much less than either hypothesis.
+Section~\ref{sec:two-uniform} proves that a pure state whose two-party
+marginals are all maximally mixed --- any local dimension, no stabilizer
+structure, no maximal entanglement --- has finite product-unitary symmetry
+group modulo phase, and that the defect of a product unitary grows
+quadratically away from that group, with an explicit ratio constant
+independent of the number of parties, on a neighbourhood whose size is
+governed by the state's uniformity order rather than by the number of
+parties; for a \(2\)-uniform state that neighbourhood can shrink as the
+party count grows, while for an \(\AME(2m,q)\) state, which is
+\(m\)-uniform, it does not.  The stabilizer hypothesis then sharpens
+discreteness into uniform separation: because overlaps of stabilizer states
+are quantized, a product Clifford is either an exact symmetry or has defect
+at least \((2-2p^{-1/2})^{1/2}\), a constant depending on the
+characteristic and on nothing else.  Rounding a near-symmetry to a Clifford
+and invoking that gap gives an explicit threshold below which every
+approximate symmetry factors through an exact one.  This splits the
+rigidity phenomenon into an
+entanglement half, which forces discreteness, and an algebraic half, which
+names the finite group.  It sharpens the limitation of the theorems above
+without removing it.  Arbitrary phased minimal-support \(\AME(6,d)\) states
+still form infinitely many LU classes
+\cite{RamadasLakshminarayan2025}, and nonlinear orthogonal arrays and
+nonstabilizer AME states are still unclassified here; but every one of
+those states has a finite product-symmetry group modulo phase, so the
+stabilizer hypothesis is doing only the work of identifying which finite
+group appears.
 
 The geometric applications in the remainder of the paper specialize to
 \(m=3\).  Our main explicit application is the ordered pencil
@@ -266,6 +312,8 @@ equivalence is fixed-party.}
 Result & \shortstack[l]{Local\\dimension} &
 \shortstack[l]{State or code\\assumptions} & Party motion \\
 \midrule
+Discreteness and local stability & any integer & arbitrary
+\(2\)-uniform pure state on \(n\geq4\) parties & fixed \\
 LU rigidity & \(p^e\) & arbitrary stabilizer \(\AME(2m,q)\) &
 allowed explicitly \\
 Atlas classification & \(p^e\) & arbitrary stabilizer

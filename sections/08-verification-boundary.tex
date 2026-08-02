@@ -71,6 +71,30 @@ The manuscript gives complete proofs.  Lean kernel-checks the support,
 transition, marginal, covariance, axis-recovery, and holonomy cores; the
 manuscript proves the exact projective atlas extension.
 
+\noindent\textbf{Partial-Weyl recognition criterion.}
+Section~\ref{subsec:recognition} gives complete manuscript proofs of the
+partial-marginal criterion, the recognition-group lemma, its
+minimal-support realization, and the CSS and arbitrary-dimension
+consequences.  These results use no finite certificate and have no Lean
+coverage.  Their relation to the qubit theorem of Van den Nest, Dehaene,
+and De Moor and to the tensor-uniqueness literature is established by the
+cited sources and the manuscript reduction, not by the supplement.
+
+\noindent\textbf{Discreteness and quantitative stability.}
+The manuscript gives complete proofs.  No certificate and no Lean module
+supports Section~\ref{sec:two-uniform}; the numerical checks that first
+accompanied these statements are not used and are not part of the
+supplement.  Every constant in the subsection is exhibited.  The threshold
+in Corollary~\ref{cor:approximate-decomposition} is obtained twice, and the
+two routes have different standing:
+Corollary~\ref{cor:approximate-decomposition} produces it from compactness
+without exhibiting it, and Theorem~\ref{thm:explicit-threshold} gives a
+closed formula for stabilizer AME states, exponentially small in the party
+count.  Proposition~\ref{prop:stability-region} bounds any threshold valid
+at uniformity order three; it is a statement about that order, not about
+the party count, and the certified region is measured against the
+uniformity order throughout.
+
 \noindent\textbf{Pencil and six-arc classification.}
 The manuscript proof uses exact certificates for the finite holonomy
 calculation.  The Lean interface is conditional and names its geometric and
@@ -142,6 +166,11 @@ a Clifford from a Galois match.  Neither bridge is used as a paper theorem.
 
 Finally, none of the results classifies nonlinear orthogonal arrays,
 arbitrary nonstabilizer AME tensors, or stabilizer states that are not AME.
+Theorem~\ref{thm:two-uniform-discrete} and
+Theorem~\ref{thm:two-uniform-stability} apply to all of them, but they
+bound symmetry groups rather than classify states, and they do not identify
+the finite group; Remark~\ref{rem:two-uniform-not-clifford} exhibits a
+\(2\)-uniform state whose symmetry group contains a non-Clifford element.
 We do not claim that four
 copies are globally minimal, that \(z=2,4/9\) are orbit exceptions, or
 that a fixed copy degree separates all classes as \(q\) varies.  The
