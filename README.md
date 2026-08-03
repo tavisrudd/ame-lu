@@ -1,13 +1,13 @@
-# Paper: Local-unitary rigidity of stabilizer AME states
+# Paper: Local-unitary rigidity and quantitative rounding
 
-[![DOI](https://zenodo.org/badge/1315348174.svg)](https://doi.org/10.5281/zenodo.21681856)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21681856.svg)](https://doi.org/10.5281/zenodo.21681856)
 
 ## Read the paper
 
 [**Open the paper (PDF) →**](ame-lu.pdf)
 
-**Title:** *Local-Unitary Rigidity of Stabilizer AME States and
-Transversal Clifford Groups of MDS--CSS Codes.*
+**Title:** *Local-Unitary Rigidity and Quantitative Rounding for Stabilizer
+AME States.*
 
 Every local-unitary
 intertwiner between arbitrary additive stabilizer `AME(2m,q)` states is
