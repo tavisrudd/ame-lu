@@ -6,9 +6,9 @@
   "public_export": {
     "artifacts": [
       {
-        "bytes": 1020,
+        "bytes": 1207,
         "path": "Makefile",
-        "sha256": "97c3d34df8806989411dbcc4d11bd8197f9a0f64ddc7cfeb04df4f64d9068cee"
+        "sha256": "8e7291b7ddc73717c3640e5eeb0bd3d927f2dd81cdefd77f6e02b748bc61a362"
       },
       {
         "bytes": 433301,
@@ -221,7 +221,7 @@
         "sha256": "b91ba7b352527fe5659a8f045ca22048eaa5f51e48fe04e7cf80465c91d97c4d"
       }
     ],
-    "tree_sha256": "f56a808ec24a79b25b78025567180f07a6101f4337aa9a5cc10e8e4a452f2925"
+    "tree_sha256": "2ada0216f5176543f8e7612f38e0cba62e4406bf81a36a6593a55288ea3d98cd"
   },
   "formal_companion": {
     "artifacts": [
