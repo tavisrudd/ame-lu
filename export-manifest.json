@@ -31,20 +31,20 @@
       "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
     },
     {
-      "bytes": 1109,
+      "bytes": 1077,
       "mode": "100644",
       "path": "Makefile",
       "rewrites": [],
       "role": "support",
-      "sha256": "cee191a8df22679a7bd58ceaf03423865e133e139b343e6b69212d934a70e813",
-      "source_blob": "fde2ce95aa25127351c6537e626f6e77b291b454"
+      "sha256": "e593059a95aa847898c4f079410d8a4b249eecf8bb716659b65ae848414c3480",
+      "source_blob": "75a54557ed3392ab1390ec06aa5e40ce91d3f98b"
     },
     {
       "bytes": 287,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "2c6331a6916d8f44921103b106ba6a836b47293668eda3cc311b9e7358ef511a",
+      "sha256": "a521c47e2ed419044eabeeb549fb3a178921018aee47b240b86545a6e9454352",
       "source_blob": null
     },
     {
@@ -147,6 +147,15 @@
       "source_blob": "35b4784b84b9a9cbdbc8dbabfd9954d54953f47f"
     },
     {
+      "bytes": 1499,
+      "mode": "100644",
+      "path": "scripts/lint_tex_spacing.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "511eb6837ec3b59769f4a2e3d76a9658403907f270246e9d739bec1afcc345e0",
+      "source_blob": "d6940a870427fa412f6e8309387f9cf9f6a6a0ea"
+    },
+    {
       "bytes": 8358,
       "mode": "100644",
       "path": "sections/01-introduction.tex",
@@ -241,5 +250,5 @@
   "repository": "ame-lu",
   "repository_map_sha256": "328166a2903fce18485507b2120f3a3938f9001925e80beda7b333260398202f",
   "schema_version": 1,
-  "source_commit": "5f76f3cbdc347d2f35ae4dad85397f4b9aad15b5"
+  "source_commit": "451ba55bc22981baba3b2ad38ae9b5ab52ed381b"
 }
