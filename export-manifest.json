@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "a521c47e2ed419044eabeeb549fb3a178921018aee47b240b86545a6e9454352",
+      "sha256": "746cf4ea0f757333431093f1dc6a4b9d1d55a5969a11eba3fdd9dd14f8607768",
       "source_blob": null
     },
     {
@@ -129,22 +129,22 @@
       "source_blob": "c76ac38e8e5a05c9de4a34c2b8328da579e6cee7"
     },
     {
-      "bytes": 26670,
+      "bytes": 21412,
       "mode": "100644",
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "b9e845e553c821585dc42634598276eeb2588ba5c4c49651036c20ebdbde03d6",
-      "source_blob": "121c4c65692a3f01bce63a16cd20b50d1d789922"
+      "sha256": "ce94aee0b110046b153ce9adec2fd278a46c4d29f4f68cc08dec83a8a9c5ee29",
+      "source_blob": "b8a4812cd167d28a9f3d3ab0f9079f24b4b20b55"
     },
     {
-      "bytes": 7563,
+      "bytes": 7202,
       "mode": "100644",
       "path": "release/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "ca3e562179cb859043cb076a97e2e74221cf7a5532f8a79285700528a72bfafb",
-      "source_blob": "35b4784b84b9a9cbdbc8dbabfd9954d54953f47f"
+      "sha256": "42614998847e8e1ebde21a8134f4ab41c87004e7ce35b9c1cc72a6024110ed4e",
+      "source_blob": "07815d179caad7b626cd3b1ea0716dc566fa3cd3"
     },
     {
       "bytes": 1499,
@@ -250,5 +250,5 @@
   "repository": "ame-lu",
   "repository_map_sha256": "328166a2903fce18485507b2120f3a3938f9001925e80beda7b333260398202f",
   "schema_version": 1,
-  "source_commit": "451ba55bc22981baba3b2ad38ae9b5ab52ed381b"
+  "source_commit": "7cf913ea76b0f43cf5d78901d51ff8de3a0aa4ce"
 }
