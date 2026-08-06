@@ -13,13 +13,13 @@
       "source_blob": null
     },
     {
-      "bytes": 1701,
+      "bytes": 1859,
       "mode": "100644",
       "path": ".zenodo.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "abc6ac62d12134e6bcea42db82818fb6e593b81ffe213d0a03599af87e3dbbf9",
-      "source_blob": "e77578747e158ee6abecb79d995837687c9ed8f6"
+      "sha256": "50a67f462d93e6b67dfdd89f0bed868578ca011673344615f496d5a8019bd60c",
+      "source_blob": "92665f6795d8612acc3eb61ab2253895c7dd2cab"
     },
     {
       "bytes": 470,
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "abca7b1583ce55723f118d1b42f8c8e4ee925546e9e2fb37c460ae26736e327f",
+      "sha256": "717f51c0c487fa84bc943c0ffc3605fdba924c39fdc1ee89882821be78ab346d",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "9abfe8e0b8be0fd99bdb6f768fc358fe6b891d92"
     },
     {
-      "bytes": 300372,
+      "bytes": 300290,
       "mode": "100644",
       "path": "ame-lu.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "130b0fbb431eb0664a128eea8f2ba0da8bdc3745956e8e877405d9c683ff550f",
-      "source_blob": "0bcd687dafd7daf9fc7715367716af50879434e8"
+      "sha256": "45f707bd0119ce8cb9ae9aa5610252f731e5d27dc29bf653e9b9810d203d34d6",
+      "source_blob": "10c0b99a4d5c6d23fa0514826fa4f9a13399f697"
     },
     {
       "bytes": 2646,
@@ -111,13 +111,13 @@
       "source_blob": "d4658dccf26fc9801d97321f5d94d82a93f0bf6c"
     },
     {
-      "bytes": 270,
+      "bytes": 186,
       "mode": "100644",
       "path": "frontmatter/index-terms.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "3f4946bd81554445ea34aab25854c99f31da7331b8c51e3b0ad62229915c3743",
-      "source_blob": "b50c67ff6f65a6b9033c5430e7d07a4ce33e45cc"
+      "sha256": "187e03eb0106383ebcd2aebcd0c728bb0a265591ca1ceffda277c90302044723",
+      "source_blob": "3637b53948bdc5d64aea65f24efe076b95c9e9d3"
     },
     {
       "bytes": 5174,
@@ -143,8 +143,8 @@
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "2fbda8b1d9fa334abafb2deb1dbaf7d44b6cf818a4e6373bb8c4a9792c8d9d19",
-      "source_blob": "07c4a061141f8019d0032b54c5fdc33e8d91dd90"
+      "sha256": "12de0d7a6a4ffddf392d8957f4d06c45ee6bd90220a89dca40e2c16a520ea4c1",
+      "source_blob": "5cbda1d187c4737d59643ec2289170c26f2a2e11"
     },
     {
       "bytes": 7881,
@@ -259,5 +259,5 @@
   "repository": "ame-lu",
   "repository_map_sha256": "59230e8d90cbd3a647c7577061816d50d5f3d2fa9ffa1a21e9d6da3c5251fba9",
   "schema_version": 1,
-  "source_commit": "c863d1d118f6941a58c185dfe215cf2160c1083a"
+  "source_commit": "58729c97aa3f22c297abee63749dc3da0501c279"
 }
