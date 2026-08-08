@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "3f8f6f879e40a0da3c6c70df7fb78668bcce4e2bf2635baa8e8b14139317855f",
+      "sha256": "ca7c4ad596568b92b1eea750bb26de54bfb95253fc0398aca05c3aa2ff93bb9a",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "9abfe8e0b8be0fd99bdb6f768fc358fe6b891d92"
     },
     {
-      "bytes": 304519,
+      "bytes": 304715,
       "mode": "100644",
       "path": "ame-lu.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "db6625d001c07dcc7a311fe9c3b2090de14f660dca20a61ec78bef8c6f016dfb",
-      "source_blob": "cf7497de65860195b339358c6b87611adda4a035"
+      "sha256": "239d97a02d617354c07fd3ee4675916329ea1fc86a9ec26afab08fd432a353aa",
+      "source_blob": "9e0bdef5bdc2221845ea103b97070a4878660247"
     },
     {
       "bytes": 2646,
@@ -129,13 +129,13 @@
       "source_blob": "6c44a3fe741a68966c8e01284f3b7b57e1b8720a"
     },
     {
-      "bytes": 21892,
+      "bytes": 22161,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "59706be38bb14f836d2b05d49b45db96ee28ffe7291c46455c0d0b9f6cf42287",
-      "source_blob": "57770c0add67df2e39c23ebdbeca9e19305af5ca"
+      "sha256": "323f73e8301d94c2aba6a38e1c276a7ae84954840bc88d1d3465d6d780118259",
+      "source_blob": "df9dffd2cd8f9064fd7f522a34f17ecb538adf9c"
     },
     {
       "bytes": 19525,
@@ -143,8 +143,8 @@
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "77712fb99875f39060fcc9eda16947373cc53780e12b0088e6f464a6bcb5b370",
-      "source_blob": "44d98357b3f9bdda2fc54f3f76fdf8d51aec39bb"
+      "sha256": "c96a282d2bac9d6d569d8d8688f090d84a3356f51f2fab29c55006306f055114",
+      "source_blob": "63de14be47de5fa38ecad5a229cdbbf76853cf0f"
     },
     {
       "bytes": 8724,
@@ -165,13 +165,13 @@
       "source_blob": "d6940a870427fa412f6e8309387f9cf9f6a6a0ea"
     },
     {
-      "bytes": 9509,
+      "bytes": 9539,
       "mode": "100644",
       "path": "sections/01-introduction.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "edc5069fa4b8f2e71dc1bde83e5a671679495918a893d8e9f00fbde4efdbc879",
-      "source_blob": "48faf92c3ebab0167aafaa40387cddbff1e52afe"
+      "sha256": "ecabcf1e0d7a929a061a19b0d215d3ea76e5ca537c22f327c54fce2f4402f764",
+      "source_blob": "408d178f4cf26dd7c5c6cf08ba69bfec62a412f2"
     },
     {
       "bytes": 2784,
@@ -254,10 +254,10 @@
   "paper_ids": [
     "ame_lu"
   ],
-  "paper_registry_sha256": "603ca0770496b2e4fcbdb4cf5db5126a70f5ed52d5f7e1789d70e3fb83c0f21d",
+  "paper_registry_sha256": "425708671b56fda38b8dba3daaf10945ad37c8647dabf4dd5041d7b37205497d",
   "release_output_policy": "legacy-unspecified",
   "repository": "ame-lu",
   "repository_map_sha256": "59230e8d90cbd3a647c7577061816d50d5f3d2fa9ffa1a21e9d6da3c5251fba9",
   "schema_version": 1,
-  "source_commit": "aac99480c781363f07bc302e4a7d9332797b5e6b"
+  "source_commit": "3996cb3678e9ae6d58c5c3bccc1e3d60987c2dc1"
 }
