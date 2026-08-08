@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "83959facc78dd41ac2a2766f239a59dfd57dc07b069d67528bebcf02a8f1ba47",
+      "sha256": "cf90d126a7ac8174b7c501a3da613a7fa0c9a3fe76f9cdf91f9b036b9441a3f9",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "9abfe8e0b8be0fd99bdb6f768fc358fe6b891d92"
     },
     {
-      "bytes": 311089,
+      "bytes": 312036,
       "mode": "100644",
       "path": "ame-lu.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "508a06ced19ce154d67bb1cc4b3c09a287263a7e7488f6bf29de510a5fdf86bf",
-      "source_blob": "7b4b9cbb82ef8e7732df35a8eeb2c763c746f83b"
+      "sha256": "d5cf188a4f7853cef6551badb2e11dea8c432aa96ab9da3eaf0e77432375b495",
+      "source_blob": "7cae593d96186e0a1aba9de3a13d323b01461201"
     },
     {
       "bytes": 2646,
@@ -138,13 +138,13 @@
       "source_blob": "df9dffd2cd8f9064fd7f522a34f17ecb538adf9c"
     },
     {
-      "bytes": 19525,
+      "bytes": 19736,
       "mode": "100644",
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "13672ef9323ed0907e315a4a1d23d62dbd23af443612ecc089cb404259cc35ef",
-      "source_blob": "a290ccc723961946cdbc73652c329a9634700d66"
+      "sha256": "2a8c4e71ed1cf3b0d74f4336694b78a665dec8502cf979d4fd3e36268cbb86ac",
+      "source_blob": "3256a084891e21c360868f1de87ba6e4ac49371a"
     },
     {
       "bytes": 8724,
@@ -201,22 +201,22 @@
       "source_blob": "79114114ce38ced551f481ad6920a392d0735013"
     },
     {
-      "bytes": 1854,
+      "bytes": 1851,
       "mode": "100644",
       "path": "sections/07-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "a6f0c1454e181dce559ffa499390cc54a29679dc807b2c752abfdf7a67163d84",
-      "source_blob": "62fde55983f67f5b6b7b659720a1212e77d46fbf"
+      "sha256": "72bed1da38637a92f5090153291740a090a81f6d8ed2e4558f665a89e6524c0a",
+      "source_blob": "c31787f8b5a217f87e1658900e140b3c3fd6c874"
     },
     {
-      "bytes": 3782,
+      "bytes": 4177,
       "mode": "100644",
       "path": "sections/08-verification-boundary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ca3ca136d69cff537e877a8af991c7b2d1daa0c250ce306b7e33fea276d6146c",
-      "source_blob": "59722a4f4acf384c73ce9e140855eeece0515373"
+      "sha256": "95d8708d5b00f0bf10d033474ec7ae916f1b366b5fc8b0428cf2fe057c9eec45",
+      "source_blob": "92f3078354ff93bed09f10af75f70bce3833fe04"
     },
     {
       "bytes": 11767,
@@ -259,5 +259,5 @@
   "repository": "ame-lu",
   "repository_map_sha256": "59230e8d90cbd3a647c7577061816d50d5f3d2fa9ffa1a21e9d6da3c5251fba9",
   "schema_version": 1,
-  "source_commit": "ea0fc6b39dbcdd18143ecc5a906eb9afc7ac42dd"
+  "source_commit": "77215a556ff7734b1983a5c7b6ab84fbf1da5177"
 }
