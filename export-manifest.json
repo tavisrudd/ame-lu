@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "7568833c725991449cb5cda244871fd087775e71ab72cb53b0ade9d3ba4b0ee4",
+      "sha256": "f6a4bc62322628eac8a926eebded6004794bcf41abd0ad48bc65f861daf668db",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "9abfe8e0b8be0fd99bdb6f768fc358fe6b891d92"
     },
     {
-      "bytes": 314312,
+      "bytes": 314323,
       "mode": "100644",
       "path": "ame-lu.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "c40296d1be341a3c460eabb078526b97b86162aa1dcba2acfc3928d020713f19",
-      "source_blob": "d38b8e23f00c9b537708c48b10c3acc5169afaf1"
+      "sha256": "d7654488e065014be4e76eb97db8b3ae35d09805f4123ef92097f8d6ad305b8a",
+      "source_blob": "a9fa87a00fb236b6086ac215fff59bd2c45654ef"
     },
     {
       "bytes": 2646,
@@ -143,8 +143,8 @@
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "fe3e6f7946b0c13221a98c08c48fb7bc6ad7f2b0df5d77dafcab66fe1ca2f4d6",
-      "source_blob": "fd3182b2b8fac92ba38f592ccb6cc3eb35a83826"
+      "sha256": "2b627ab1a035dc42e5b7d72e03362da2f2f9d30dd65e7d9265aeb661673c9bff",
+      "source_blob": "5df7b3ee0782e9d011e1c22eb7f40f7cc2c927a2"
     },
     {
       "bytes": 8724,
@@ -228,13 +228,13 @@
       "source_blob": "dcc504eace11bf507195921df473f7829a0f7e0b"
     },
     {
-      "bytes": 63429,
+      "bytes": 63449,
       "mode": "100644",
       "path": "sections/B-secondary-quantitative.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "6075f340c12acb72e3ffd7e88a343b57eb298b98fa3f095795448e014c992b41",
-      "source_blob": "e36cabeb3a43720aa288200024c8b8f6506db790"
+      "sha256": "70562a1d85a0c4164149b74f8d4152cc311e9cf41c14b188696503c2324ee2e9",
+      "source_blob": "28ae1ccac1ea7cba0dac93737f46655263bd0e84"
     },
     {
       "bytes": 931,
@@ -259,5 +259,5 @@
   "repository": "ame-lu",
   "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "86b887162273f24686c1815209ca8af2a390447f"
+  "source_commit": "09ed8926539c626e9d8ba98f6854502c2645c1da"
 }
