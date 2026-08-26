@@ -1,8 +1,8 @@
 {
-  "excluded_path_count": 10,
+  "excluded_path_count": 9,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
-  "exporter_blob": "7bc6af6a40123bfa071466d9ed3faeaafb7e8d60",
+  "exporter_blob": "e7a28356ed6f4969cfde0ceaf7a0982ab73da12a",
   "files": [
     {
       "bytes": 108,
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "f6a4bc62322628eac8a926eebded6004794bcf41abd0ad48bc65f861daf668db",
+      "sha256": "02d5306691340293f5b3e25b147d826065df29686828bbadc14f359b34a94664",
       "source_blob": null
     },
     {
@@ -254,10 +254,10 @@
   "paper_ids": [
     "ame_lu"
   ],
-  "paper_registry_sha256": "e3e739fd4bca142a8c245291c1d30125fa468718cc8351c23c2b2fc3c452e84e",
+  "paper_registry_sha256": "a78ad495a4099048d45a5e168a68300030515136b3ec3571e9a031d88b3232ea",
   "release_output_policy": "legacy-unspecified",
   "repository": "ame-lu",
-  "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
+  "repository_map_sha256": "d1e7c4d4540ec2e850948c256aac9776888a4221392e3951ffd2cf5252702be0",
   "schema_version": 1,
-  "source_commit": "09ed8926539c626e9d8ba98f6854502c2645c1da"
+  "source_commit": "cdfb7b1a576e92003e35fad90e7e714378056664"
 }

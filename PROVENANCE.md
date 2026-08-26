@@ -1,6 +1,6 @@
 # Export provenance
 
-- Source snapshot commit: `09ed8926539c626e9d8ba98f6854502c2645c1da`
+- Source snapshot commit: `cdfb7b1a576e92003e35fad90e7e714378056664`
 - Repository identity: `tavisrudd/ame-lu`
 - Export method: deterministic, content-addressed source materialization.
 - File hashes and source blob identities are recorded in `export-manifest.json`.
