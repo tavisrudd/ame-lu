@@ -59,8 +59,6 @@
     the Clifford separation step, and the resulting explicit threshold.
     \input{figures/04-defect-landscape}%
   \fi}
-\newcommand{\AMEFigureFive}{%
-  \ifdefined\AMEHideFigureFive\else\input{figures/05-stability-radius}\fi}
 
 \title{Robust Local-Unitary Rigidity of Stabilizer AME States}
 \author{Tavis Rudd}
@@ -77,7 +75,10 @@
 Let \(q=p^e\) and \(m\geq2\).  We prove that every product unitary mapping
 one stabilizer \(\AME(2m,q)\) state to another is Clifford on each party,
 and the same holds when a party relabelling is allowed.  The result covers
-arbitrary additive stabilizers.  Thus local-unitary and local-Clifford
+arbitrary additive stabilizers.  Here Clifford is meant in the additive
+prime-field sense: on Weyl labels a local factor acts through
+\(\operatorname{Sp}_{2e}(\F_p)\), with no \(\F_q\)-linearity assumption.
+Thus local-unitary and local-Clifford
 equivalence coincide for these states.  The proof is a support count:
 stabilizers contained in any
 \((m+1)\)-party set project bijectively onto the full Weyl-label space at
