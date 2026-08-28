@@ -1,5 +1,5 @@
 {
-  "content_sha256": "cf4dc37bb893a4f7ee8d83758f2fe5a7002be2afcc673cbbdf50b6641b34b975",
+  "content_sha256": "f07fe6401fa51854c8f01f849ffa9f82bb4699a9989d14fb9aa093b630b300ec",
   "excluded_path_count": 9,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "521e0060118dd8c31d45c045b6598e4abd744e54394ecb307073607b1df97e95",
+      "sha256": "73c81782d7c93b71457b42806d46ead72524bbe99e6e700890e5adbb9078662f",
       "source_blob": null
     },
     {
@@ -138,13 +138,13 @@
       "source_blob": "fa7cc31731560616a289b431936e9b93cee2b4b8"
     },
     {
-      "bytes": 19532,
+      "bytes": 19907,
       "mode": "100644",
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "09b863e8daf9c50312005cf78fb845d4d985d3228b306675398dd139025641ca",
-      "source_blob": "55d635b00b6092708dc49dd2b27987ba45e9afa3"
+      "sha256": "31ee080f1da22de2b65125cd27b2d2159d4e3361d16e06c2103331625b32d20a",
+      "source_blob": "fc9247ad522b83a04c78879bd3457e5c61822834"
     },
     {
       "bytes": 8689,
