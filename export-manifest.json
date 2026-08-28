@@ -1,5 +1,5 @@
 {
-  "content_sha256": "bd63b9f6fea6889171991695ea991946bf3383f25cd877f878f0353a6bf44bc0",
+  "content_sha256": "f7d3b3cd90fd012db46f3514c07e78cd7064ed08f95e059d30a35a4e4cb6d629",
   "excluded_path_count": 9,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "f10c3a717bc6fb3648d07ea6a08ec6aee473a1960f2bb16210301b0cc32c1156",
+      "sha256": "097d9366a2fe8b19bc3aef3fd6629b2d4d738aaca463b3fa1322bf0932e0e72c",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "9abfe8e0b8be0fd99bdb6f768fc358fe6b891d92"
     },
     {
-      "bytes": 301989,
+      "bytes": 293353,
       "mode": "100644",
       "path": "ame-lu.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "a1d6720e35f8971d3bfca6f813420b1e313630a117929c07517aa5e072cb8007",
-      "source_blob": "0b9e6d7d148cb7f6aa137cb493ee057a3236b2bf"
+      "sha256": "70796e974680247bd9efa14d297123625bce06da26f58b536e439c82841788cd",
+      "source_blob": "5dbaad9147a5568cce134d856f2250966af34a82"
     },
     {
       "bytes": 2652,
@@ -143,8 +143,8 @@
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "95bbc53f246dc47192e47b72ba20b3c479c4bc9b5bca6ba9e8241dde4605503f",
-      "source_blob": "7b9a4ba51dd392ef9f1c740b90c83b1839d9f21e"
+      "sha256": "f06563d3a2352ec684de3764b99b10d26e1c87a0b51f7388f3268bc5fbcb4f85",
+      "source_blob": "c397247dab24f3246052dc0c0a2585bbbb266429"
     },
     {
       "bytes": 8724,
@@ -192,13 +192,13 @@
       "source_blob": "2eadc327fefb4bc2a92ffa9250fa41c963bcc75b"
     },
     {
-      "bytes": 23851,
+      "bytes": 23982,
       "mode": "100644",
       "path": "sections/05-quantitative-rounding.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "9b39d94721c2561d56ea3dd4350a13a59bdf2c7fc0142bf501ab4f0bcc0463cf",
-      "source_blob": "861e3b83c1fbccc4d6b5cfaea14b83efee75a30c"
+      "sha256": "e08eb1f2bea3443454b180455433429fc1c17c411288641574994fce3a669753",
+      "source_blob": "b9ba1babc341bb695aee26c89ab107a191d2b77b"
     },
     {
       "bytes": 1887,
@@ -219,13 +219,13 @@
       "source_blob": "be71f24ab6f2386fcb8b553cb907a97d2c4b9524"
     },
     {
-      "bytes": 59058,
+      "bytes": 53146,
       "mode": "100644",
       "path": "sections/A-secondary-quantitative.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "27cd2ba65fc61b6961ead29f3da8d437ecdb50249b838cadc8a3bea1f2a73472",
-      "source_blob": "6a0f96ce1c052f4c61b59d2d8d3d617b70eaa97a"
+      "sha256": "5a57ad2f03ca77e81443259e683693a5b5b963629aad2b78bc1e31bc5f07eb43",
+      "source_blob": "86baea899a9b45fbe6d37b49b635a3bd613da4cc"
     },
     {
       "bytes": 1022,
