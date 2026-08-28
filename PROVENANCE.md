@@ -1,6 +1,7 @@
 # Export provenance
 
-- Source snapshot commit: `cdfb7b1a576e92003e35fad90e7e714378056664`
-- Repository identity: `tavisrudd/ame-lu`
+- Public repository: `https://github.com/tavisrudd/ame-lu`
+- Exported-content SHA-256: `ba9bfe85cdea888a528fcaf50c0fd00ac7089b8d5cac0dad7a68a3b0ba9d55cf`
 - Export method: deterministic, content-addressed source materialization.
-- File hashes and source blob identities are recorded in `export-manifest.json`.
+- File hashes are recorded in `export-manifest.json`; the public Git commit is the repository's own `git rev-parse HEAD`.
+- Private source-authority and exporter-registry identifiers are deliberately not part of this public provenance record.
