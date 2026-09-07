@@ -1,5 +1,5 @@
 {
-  "content_sha256": "80c4b22ccec5d033f08b8cf6744b255fd19f7192f0b2172f18dfa025d34afbf8",
+  "content_sha256": "0b8acc21abb5cdf39aeee838df9902b9a481a58b0d59370035f861684b64f542",
   "excluded_path_count": 9,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "bd9ff120d6f8947f9633a064e60123a2cb8abdd769863abb948c7b7402533ad4",
+      "sha256": "f9d302eaeefc9adb7a8342d2458b25ba8691941e329c97f2aa34acb4df003122",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "c969145703e1e24dd92635ea5b4f3adefa62c139"
     },
     {
-      "bytes": 301243,
+      "bytes": 302065,
       "mode": "100644",
       "path": "ame-lu.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "04b34952727f31c93bde2f7f7a5a68d68394452712339fb8c4dce17be63e4911",
-      "source_blob": "fc4ef319c41350c0dd27acf69a89d900bf5ff38f"
+      "sha256": "bb25c09631f13fa1d0a3ad7155ad372b54e8ee8bf3410dafdecb1b78cad1f825",
+      "source_blob": "0ed08fe672e1c9510df4a5de3d0b98d6686c736f"
     },
     {
       "bytes": 2650,
@@ -134,8 +134,8 @@
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "7015be519ca924aaba19f76fb9944c17e20e3363f236d8e0fc491deafe883629",
-      "source_blob": "f4606ee159b3f92567b71529f39e076ba0a59cf0"
+      "sha256": "c60dad65bca47679216d345bc81a49c19ef4a0953cfd0e80c593180b9bf58043",
+      "source_blob": "3cb4eef66e94a4a326efd806487f32103796335b"
     },
     {
       "bytes": 8689,
@@ -174,13 +174,13 @@
       "source_blob": "b20841531331d4374b8e0e5b9e8df1e631c49fcd"
     },
     {
-      "bytes": 35402,
+      "bytes": 35683,
       "mode": "100644",
       "path": "sections/03-exact-rigidity-atlas.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "a23d4bdb286a4160725cb21f3b158df89285eac97e26a7c766d4808a5e6fe0d8",
-      "source_blob": "96719235ffe766b7c990329eea044483203a56e1"
+      "sha256": "fbf28b6d592c29139ff5ebae63d1a1b916d42e155835b00e50f24d2e56c156f1",
+      "source_blob": "943f573ee5cee25e05f33a35b52dd4ef979297d5"
     },
     {
       "bytes": 10079,
