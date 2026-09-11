@@ -1,5 +1,5 @@
 {
-  "content_sha256": "00309d42e22592e5e96ea848832789fbb9dc276dfc8960acc729dadab62ae5e0",
+  "content_sha256": "93d8a51c2e4a1a26675fbd117c5327b02f177b28d43dd9febe0fe043772b4fbc",
   "excluded_path_count": 9,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -31,30 +31,30 @@
       "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
     },
     {
-      "bytes": 1107,
+      "bytes": 1257,
       "mode": "100644",
       "path": "Makefile",
       "rewrites": [],
       "role": "support",
-      "sha256": "2b6a65af3d935ac153c41d6cd00975f6165869b573bd65ba9ea6c418f36cd15d",
-      "source_blob": "a597ed9f6fd86f76fabeca60000848906e10b819"
+      "sha256": "a240f0c0f8426c27f4f5f31f3887a464fa0c5af3a5784ed5c332934ef69e9d53",
+      "source_blob": "124fc5fd013b113736cd726e3c1b74094877a0f3"
     },
     {
       "bytes": 492,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "52c471bdf097bd8d9dee2f9d1d47091ac05b388eeddba64b935c6eaaa24ee829",
+      "sha256": "3d381bab46cac509b7470bb78d631b7fc846e2c51e9d71d0f8a21c56dfccc643",
       "source_blob": null
     },
     {
-      "bytes": 9119,
+      "bytes": 10547,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "49bcd630380f9fa6c2cc8d8284f46143d89a64c3faaf402bbe58077e6cd8b518",
-      "source_blob": "10d6c8b2f8fbfc5b803e874da8c209e789b7f1b2"
+      "sha256": "a3ff9bd9ee3ab4e9b74ecfeddf0128ae6430e7b9973ec1b86a1bdd09684b15a5",
+      "source_blob": "9231b5da7fb17b2e5df29e316a9daefc178e6d91"
     },
     {
       "bytes": 1092,
@@ -66,13 +66,13 @@
       "source_blob": "c969145703e1e24dd92635ea5b4f3adefa62c139"
     },
     {
-      "bytes": 342388,
+      "bytes": 353969,
       "mode": "100644",
       "path": "ame-lu.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "b39e9c39cdf62381fcf58ba562a37a87e5eb661f703b2b7ca53602c5f59d737b",
-      "source_blob": "f5d61faab5d02132749d6eaf1df4dbdc71cc3bed"
+      "sha256": "e7789e3b2c847e51edcf05f8e81ea924604f4b024a3a1cacfbb7a8af6369d55c",
+      "source_blob": "9b9ae10a3c820b7f0f5791e781dac6cd736a70a5"
     },
     {
       "bytes": 2650,
@@ -111,40 +111,40 @@
       "source_blob": "3637b53948bdc5d64aea65f24efe076b95c9e9d3"
     },
     {
-      "bytes": 5090,
+      "bytes": 5169,
       "mode": "100644",
       "path": "main.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "a2c83867d81547992fddd2582bedb54b10d27e47d6e3b3de220f3895b648a1e4",
-      "source_blob": "cce723f848916183f85817e94bcc24bb89d9f6b7"
+      "sha256": "ae2f868410ad7f9f59fffeded17558d67c490025c761c7f9fa6e5db32281d85b",
+      "source_blob": "1168964f7839e43e647e5d861941e4d8dd87999c"
     },
     {
-      "bytes": 30253,
+      "bytes": 31265,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "4b616fb847dc2f31e8fe5a3499d997e002c6bcd9ba9a1a9189e7db5198c19202",
-      "source_blob": "1bd4652a650377358dea1314f3a70273d2ad7a8e"
+      "sha256": "13d886607d571b259a03a9ecec58cc5689080a3710b32186ec1799fa69231dd9",
+      "source_blob": "2014a8a3caaf722d747c2eca6fd623e299b5df3c"
     },
     {
-      "bytes": 20096,
+      "bytes": 21573,
       "mode": "100644",
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "e5170530a9d011934a41a6d21edd12225e5e013f8075a3607fd072823f6f1acf",
-      "source_blob": "19a23e5b2f81ce2b64bf3e47a856450483776326"
+      "sha256": "fde041b481846df877e4833aaefd3f6f949a05d6450154f851616ba8c8d7a625",
+      "source_blob": "ea0fd19a6d600942e7bb0d508da9483a6de63a50"
     },
     {
-      "bytes": 8689,
+      "bytes": 9029,
       "mode": "100644",
       "path": "release/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "942457a6080e47c70e0157d208cc79dda0c122a8701cf32d8229b551dbca8033",
-      "source_blob": "24471ae8e7af4a8ea529a187609eb596bd7eaf8d"
+      "sha256": "a9aa8eafaa736ec687771338e4b9134d6a54ff24b50eae07469c9c4b2c6a1781",
+      "source_blob": "bb1fc427d38cda99ea80dc3781f969230dc5d52b"
     },
     {
       "bytes": 1499,
@@ -156,13 +156,13 @@
       "source_blob": "d6940a870427fa412f6e8309387f9cf9f6a6a0ea"
     },
     {
-      "bytes": 19298,
+      "bytes": 19790,
       "mode": "100644",
       "path": "sections/01-introduction.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "23e0c9fb171c2d6d31da3937b58c6b043016af5462f1bddb16e146e0f24914bc",
-      "source_blob": "56258c5f325495d684847bfbf7b83e8c848b14a2"
+      "sha256": "6b9f73e911ea6f128f71a99c6357a6189176176b51fb897a2bab5cc960832c00",
+      "source_blob": "700b6ad7560180443e9e886d18df44aaa25a2888"
     },
     {
       "bytes": 3682,
@@ -174,13 +174,13 @@
       "source_blob": "3c73f445feba7c140bc2e483c865d0d77ce574f2"
     },
     {
-      "bytes": 41960,
+      "bytes": 41414,
       "mode": "100644",
       "path": "sections/03-exact-rigidity-atlas.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "225e619b7d27e8d253757650b9b96713bffb1ea8e79e6ee70da4d24e572283c8",
-      "source_blob": "50c32887e6aac5fad2829eb13d4a90610f04c54d"
+      "sha256": "f74218b139c9b4558570b6c32a1a85fb850dfd76299a0a42a1ed65a356963228",
+      "source_blob": "ca21f7c1fb838d0c4a4c7dcb130082434b04da0d"
     },
     {
       "bytes": 5640,
@@ -192,40 +192,49 @@
       "source_blob": "d7f5c6a36c3cdc70597633773f795e420a1405de"
     },
     {
-      "bytes": 10844,
+      "bytes": 4551,
+      "mode": "100644",
+      "path": "sections/03b-fast-recognition.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "2c118026c6c08876936e822c937ef39364515e6e7faf3d91caf4faff57b96b07",
+      "source_blob": "9ada15a55db5919a922c215a7f8669fcacd516c4"
+    },
+    {
+      "bytes": 10864,
       "mode": "100644",
       "path": "sections/04-prime-endomorphism-algebra.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "933dad54dc6f3fb534b8f70ae145a169bbc9d786cd44e7cb9b0a701dc0718c45",
-      "source_blob": "11ece403fac3538d1ed12091ea5cd36a3a3b003c"
+      "sha256": "b0f4bc5e3b4f8a8890a7e84959c5969c51e8f3836c4da816e1851715784132f1",
+      "source_blob": "b701afc2b9ea3fa070f969a950d823509e1d32af"
     },
     {
-      "bytes": 33472,
+      "bytes": 34245,
       "mode": "100644",
       "path": "sections/05-quantitative-rounding.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "c871810eb873a36499f45be4806907358576592e71baaadf34e011259dd42b9b",
-      "source_blob": "4d0cec3c12cbff09b68e2db3a841b997de58e024"
+      "sha256": "27555dd62d7b9b1ef55cd87c04cbe896a328982b2e40d5ec4728aa970e2145b8",
+      "source_blob": "a9113c387980496aa45dfa991b87fa9b40d2860f"
     },
     {
-      "bytes": 3213,
+      "bytes": 3526,
       "mode": "100644",
       "path": "sections/07-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "483478751acf2cbcb5e020fea122e0aabe7045ccb1703d0cfc80a30e86ffba05",
-      "source_blob": "9209ff891857435fe130aab74b5e8bcebfda641f"
+      "sha256": "2bb2a51650ae66dd1365a9727d11e34a2bf7ff116f712e4ddc289349586f7b01",
+      "source_blob": "16479ed3baf24792a3e6ef26238cc18ad11ff565"
     },
     {
-      "bytes": 3977,
+      "bytes": 4407,
       "mode": "100644",
       "path": "sections/08-verification-boundary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ac4de968b3ccb34bac52d96daf39f05a3daa0715d9f618e95d7e47ca4654590d",
-      "source_blob": "a916c7142e76c1ee4fa5d3774b879f439b00fa55"
+      "sha256": "213e118df0344ca7d8852709015147932e20d8967098c7566d05be14c8d8ddcc",
+      "source_blob": "b0da2513d9f0642fefd33409272d279c41be00d4"
     },
     {
       "bytes": 11843,
@@ -262,6 +271,69 @@
       "role": "support",
       "sha256": "b9b4f157155c69853d24dcd95b8c787056194cf20546b191753553252ddb29d6",
       "source_blob": "66e4b1051fc8a7ee48ef69f72f4c59b5a6c8dddc"
+    },
+    {
+      "bytes": 4348,
+      "mode": "100644",
+      "path": "software/prime-recognition/README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "04e6398794f5a18e8455b5e2aa7cd1f1a492060e0395114ee980f11070af67f4",
+      "source_blob": "6bf82a61204746c6e2e2ac26ab3476eef8eb4e4c"
+    },
+    {
+      "bytes": 842,
+      "mode": "100644",
+      "path": "software/prime-recognition/SHA256SUMS.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "f5197fca4f17c12110f32ecafadf3c6af5c8b3de4b197acecad400cf3c5fffa6",
+      "source_blob": "cdd23e2fd8de78251fd5b68c1773acca12ad6895"
+    },
+    {
+      "bytes": 1164,
+      "mode": "100644",
+      "path": "software/prime-recognition/bundle.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "c77d2a6306ad2dd2a3cb809746f4eadfe373963234722dcd62ea65e7bdb88e22",
+      "source_blob": "422a6a6029f957cd67e6fc952bcc059121be775b"
+    },
+    {
+      "bytes": 757,
+      "mode": "100644",
+      "path": "software/prime-recognition/example.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "306646f388681e5162f8edcc94b3838c4947c9d1ba7abd9f7b1257cd03dab048",
+      "source_blob": "ab9e39b7024ae4289f597f4c0b8ec6f6c2611474"
+    },
+    {
+      "bytes": 10336,
+      "mode": "100644",
+      "path": "software/prime-recognition/recognition.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "4eb56cd2b00dc8c3e6caabb625a1912068394e5caf9a7489af0da6a17f27691b",
+      "source_blob": "8e40c404437bf43a0c1590e98b3cd9bd06efd852"
+    },
+    {
+      "bytes": 2369,
+      "mode": "100644",
+      "path": "software/prime-recognition/test-results.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "c19be79dbb38c1cbd09dc2d3901f8de92197ec9e1c5203dd62e839aab4ae92dc",
+      "source_blob": "a6320b28d278e633d2af8a106815324321da5049"
+    },
+    {
+      "bytes": 13977,
+      "mode": "100644",
+      "path": "software/prime-recognition/test_recognition.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "463b2b3e9e674f69c5449ade4f0d3fc99a42c1a39ba9760fbb71ad7a78c881ce",
+      "source_blob": "6679c845f646860504cb772692ae749626687eb3"
     }
   ],
   "github": "tavisrudd/ame-lu",
