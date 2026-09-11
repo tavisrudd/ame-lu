@@ -1,5 +1,5 @@
 {
-  "content_sha256": "4ac513e3f3f06deab8a2eaeae90dd09b36623bbfecbc5b0ddeb62613186474b8",
+  "content_sha256": "00309d42e22592e5e96ea848832789fbb9dc276dfc8960acc729dadab62ae5e0",
   "excluded_path_count": 9,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,17 +44,17 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "90ca1c12c8e5078d57336efb132bc07c721d519e91195b8988f8b176547eaba4",
+      "sha256": "52c471bdf097bd8d9dee2f9d1d47091ac05b388eeddba64b935c6eaaa24ee829",
       "source_blob": null
     },
     {
-      "bytes": 5114,
+      "bytes": 9119,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "72fe892cb803c7dfc0fd95d0de9f64692ff8d3aa557f7a0a6560eebde4087f63",
-      "source_blob": "82a38c67040259baac2fc6b133fc050787054ebc"
+      "sha256": "49bcd630380f9fa6c2cc8d8284f46143d89a64c3faaf402bbe58077e6cd8b518",
+      "source_blob": "10d6c8b2f8fbfc5b803e874da8c209e789b7f1b2"
     },
     {
       "bytes": 1092,
@@ -66,13 +66,13 @@
       "source_blob": "c969145703e1e24dd92635ea5b4f3adefa62c139"
     },
     {
-      "bytes": 333186,
+      "bytes": 342388,
       "mode": "100644",
       "path": "ame-lu.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "6b61d2cdb5d47fd094d078f94192fc7cedfc8297fdebb55240c9b517ec6672d1",
-      "source_blob": "4b72e55a9ff9197f3a32536b63008884b0a3750c"
+      "sha256": "b39e9c39cdf62381fcf58ba562a37a87e5eb661f703b2b7ca53602c5f59d737b",
+      "source_blob": "f5d61faab5d02132749d6eaf1df4dbdc71cc3bed"
     },
     {
       "bytes": 2650,
@@ -111,22 +111,22 @@
       "source_blob": "3637b53948bdc5d64aea65f24efe076b95c9e9d3"
     },
     {
-      "bytes": 5014,
+      "bytes": 5090,
       "mode": "100644",
       "path": "main.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "4ff28d304e7b6d148dc28a3281a2fe8de11a2ddba5bfcdff0683c885e6e24315",
-      "source_blob": "e11ad645cbe213303047b7edfce78b760244d3cb"
+      "sha256": "a2c83867d81547992fddd2582bedb54b10d27e47d6e3b3de220f3895b648a1e4",
+      "source_blob": "cce723f848916183f85817e94bcc24bb89d9f6b7"
     },
     {
-      "bytes": 30121,
+      "bytes": 30253,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "2771a57ff18a1b37d2cbbb0774de856115ad6352793a64a8df1f14bdeb3213fa",
-      "source_blob": "79a6a08a1f9673a807b250e8d913c49b66ca1b08"
+      "sha256": "4b616fb847dc2f31e8fe5a3499d997e002c6bcd9ba9a1a9189e7db5198c19202",
+      "source_blob": "1bd4652a650377358dea1314f3a70273d2ad7a8e"
     },
     {
       "bytes": 20096,
@@ -134,8 +134,8 @@
       "path": "release/RELEASE-MANIFEST.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "12453a431b93802cdea1d01c69f96c9ba5e3c354e774601c08e7fb117fd318bd",
-      "source_blob": "491b37bbc06b2c670f885306a0e2149699542d3b"
+      "sha256": "e5170530a9d011934a41a6d21edd12225e5e013f8075a3607fd072823f6f1acf",
+      "source_blob": "19a23e5b2f81ce2b64bf3e47a856450483776326"
     },
     {
       "bytes": 8689,
@@ -156,85 +156,85 @@
       "source_blob": "d6940a870427fa412f6e8309387f9cf9f6a6a0ea"
     },
     {
-      "bytes": 19279,
+      "bytes": 19298,
       "mode": "100644",
       "path": "sections/01-introduction.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "079b4ffb1b36b1d074d23e8ce04fe0b70f8c336971614e5644c5d9e42f2a37a4",
-      "source_blob": "0367e3ad9c9acd918eedb940b58b64854a40217e"
+      "sha256": "23e0c9fb171c2d6d31da3937b58c6b043016af5462f1bddb16e146e0f24914bc",
+      "source_blob": "56258c5f325495d684847bfbf7b83e8c848b14a2"
     },
     {
-      "bytes": 3101,
+      "bytes": 3682,
       "mode": "100644",
       "path": "sections/02-geometry-ame-dictionary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "0f5f42eb9f281a171c67cb5a2985da49976091aee0af9fae941157e5402e6c17",
-      "source_blob": "b20841531331d4374b8e0e5b9e8df1e631c49fcd"
+      "sha256": "3269f501922c555009d18110d7b6d760cf6b57fd1d27417fe53189c8d5521c86",
+      "source_blob": "3c73f445feba7c140bc2e483c865d0d77ce574f2"
     },
     {
-      "bytes": 40743,
+      "bytes": 41960,
       "mode": "100644",
       "path": "sections/03-exact-rigidity-atlas.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ff0a5b34fcdc652b7d9c1395785a799b137ffa5a395911feaa3e923357704a7b",
-      "source_blob": "6a2678e081b2751a2fc0c40807088288e5913ab0"
+      "sha256": "225e619b7d27e8d253757650b9b96713bffb1ea8e79e6ee70da4d24e572283c8",
+      "source_blob": "50c32887e6aac5fad2829eb13d4a90610f04c54d"
     },
     {
-      "bytes": 5077,
+      "bytes": 5640,
       "mode": "100644",
       "path": "sections/03a-marginal-verification.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "64352b84170d2834e0031b31cc70c70a2cd53ea28887417567548b932624210a",
-      "source_blob": "ce6b159838a566ecc3bea2c8f0f9206237648a38"
+      "sha256": "74e922dc68cef7941fa25e623e7c39806fd47f872c25cd9e1bf7160b86b9537d",
+      "source_blob": "d7f5c6a36c3cdc70597633773f795e420a1405de"
     },
     {
-      "bytes": 10078,
+      "bytes": 10844,
       "mode": "100644",
       "path": "sections/04-prime-endomorphism-algebra.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "742be0f8d49ead07c6a43b7498ecf3de9ec77755d6332c74be7d0c20ef018849",
-      "source_blob": "b8455ffecce5a99d39eed0f3096b41018c2032c9"
+      "sha256": "933dad54dc6f3fb534b8f70ae145a169bbc9d786cd44e7cb9b0a701dc0718c45",
+      "source_blob": "11ece403fac3538d1ed12091ea5cd36a3a3b003c"
     },
     {
-      "bytes": 30924,
+      "bytes": 33472,
       "mode": "100644",
       "path": "sections/05-quantitative-rounding.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "50d9b4aa8841cf5bcca117c296004edcdea6574c220d7859c91877314b3dabb8",
-      "source_blob": "bae2bd885382347a9174df10f10252ed6a6ee90b"
+      "sha256": "c871810eb873a36499f45be4806907358576592e71baaadf34e011259dd42b9b",
+      "source_blob": "4d0cec3c12cbff09b68e2db3a841b997de58e024"
     },
     {
-      "bytes": 3081,
+      "bytes": 3213,
       "mode": "100644",
       "path": "sections/07-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "dcf997255011f0d89affed9323f9aad47754253d961a3ed1a61be3917c2191d2",
-      "source_blob": "5b1c34600434a629c1ede17a2e91165c77a33651"
+      "sha256": "483478751acf2cbcb5e020fea122e0aabe7045ccb1703d0cfc80a30e86ffba05",
+      "source_blob": "9209ff891857435fe130aab74b5e8bcebfda641f"
     },
     {
-      "bytes": 4277,
+      "bytes": 3977,
       "mode": "100644",
       "path": "sections/08-verification-boundary.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "d58e55511ad4af7a2072542016fe6cd5b4677a80b6e216ab2d626776409b70b6",
-      "source_blob": "298ae0be9bf730da23bec67ec3fdc19e27148973"
+      "sha256": "ac4de968b3ccb34bac52d96daf39f05a3daa0715d9f618e95d7e47ca4654590d",
+      "source_blob": "a916c7142e76c1ee4fa5d3774b879f439b00fa55"
     },
     {
-      "bytes": 11772,
+      "bytes": 11843,
       "mode": "100644",
       "path": "sections/A-secondary-quantitative.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "db159c62d95e8487bbc1f7ebcdd6ef57c780d8df55c0c84332acdf80af42b752",
-      "source_blob": "6c39d062c31180a0dd260750a8e018d42f1d9914"
+      "sha256": "0ed86b2ef8f3519da65b39d5ddf3a020e31591c917fdda91c72d9fd77005eb7b",
+      "source_blob": "6319b7931e412cc472dbbdb913afe85d883a47fb"
     },
     {
       "bytes": 2850,
@@ -246,13 +246,13 @@
       "source_blob": "1706bbaad5cf4718bd0edd749e37ef44b22a9386"
     },
     {
-      "bytes": 6701,
+      "bytes": 6966,
       "mode": "100644",
       "path": "sections/C-marginal-verification.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "3d8eb5e849ee07ed2709ac3aab04c453c00c5d408b49ff34545577b1b8b7649c",
-      "source_blob": "8ad2fcfaef8633f124f98c4d042b8c321c8f7fb5"
+      "sha256": "de8acdc431ebc12a0d0ec47609d6101607fd88605d7ee941e2dc572b06bd8442",
+      "source_blob": "ed65eb99b81282ca6560a610f2822898937f9de8"
     },
     {
       "bytes": 1083,
